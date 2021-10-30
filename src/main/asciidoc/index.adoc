@@ -8,22 +8,50 @@ Sample application practicing the lessons from SFG Test Course, using Spring RES
 
 `BeerControllerTest` makes a call to a very simple service and produces three documentation snippets.
 
+GET BEER - Retrieve data from a Beer
+
 One showing how to make a request with cURL:
 
-include::{snippets}/order/curl-request.adoc[]
+include::{snippets}/v1/beer-get/curl-request.adoc[]
 
 The HTTP request itself:
 
-include::{snippets}/order/http-request.adoc[]
+include::{snippets}/v1/beer-get/http-request.adoc[]
 
 And the HTTP response:
 
-include::{snippets}/order/http-response.adoc[]
+include::{snippets}/v1/beer-get/http-response.adoc[]
 
 Response Body:
 
-include::{snippets}/order/response-body.adoc[]
+include::{snippets}/v1/beer-get/response-body.adoc[]
 
 Response Fields:
 
-include::{snippets}/order/response-fields.adoc[]
+include::{snippets}/v1/beer-get/response-fields.adoc[]
+
+POST BEER - Creating new Beers
+
+One showing how to make a request with cURL:
+
+include::{snippets}/v1/beer-post/curl-request.adoc[]
+
+The HTTP request itself:
+
+include::{snippets}/v1/beer-post/http-request.adoc[]
+
+And the HTTP response:
+
+include::{snippets}/v1/beer-post/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/v1/beer-post/response-body.adoc[]
+
+Request Fields:
+
+include::{snippets}/v1/beer-post/request-fields.adoc[]
+
+Response Fields:
+
+include::{snippets}
